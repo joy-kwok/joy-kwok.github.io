@@ -106,10 +106,15 @@ const CentralItemSection = ({ project }: { project: Project }) => {
 
                 {project.slug === "premiere-film-festival" ?
                     <div className="flex flex-col">
-                        <AdvancedImage cldImg={cld.image("3dmg_Premiere_Film_Festival_Poster")} 
+                        {/* <AdvancedImage cldImg={cld.image("3dmg_Premiere_Film_Festival_Poster")} 
                         className="
                             md:h-160
-                        " />
+                        " /> */}
+                        <AdvancedVideo cldVid={cld.video("3dmg_Premiere_Film_Festival_Animation_Video")} 
+                            controls={true} autoPlay={true} playsInline={true} 
+                            className="
+                                md:h-160
+                            "/>
                     </div>
                 :
                     <>
