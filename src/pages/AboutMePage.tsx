@@ -31,7 +31,7 @@ function AboutMePage() {
           w-120
           mb-4
           ">
-            <AdvancedImage cldImg={ cld.image('JoyHeadshot_at7wlk').roundCorners(byRadius(300, 300)) } />
+            <AdvancedImage cldImg={ cld.image('JoyHeadshot').roundCorners(byRadius(300, 300)) } />
           </div>
 
           <div className="
