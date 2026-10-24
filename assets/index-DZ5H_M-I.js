@@ -58,7 +58,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         `,children:[(0,V.jsx)(`div`,{className:`
           w-120
           mb-4
-          `,children:(0,V.jsx)(ro,{cldImg:$s.image(`JoyHeadshot_at7wlk`).roundCorners(Ts(300,300))})}),(0,V.jsxs)(`div`,{className:`
+          `,children:(0,V.jsx)(ro,{cldImg:$s.image(`JoyHeadshot`).roundCorners(Ts(300,300))})}),(0,V.jsxs)(`div`,{className:`
           w-full
           content-center
           lg:pl-10
