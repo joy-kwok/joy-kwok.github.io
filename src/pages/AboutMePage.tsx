@@ -2,6 +2,8 @@ import { AdvancedImage } from "@cloudinary/react"
 import "../App.css"
 import { cld } from "../content/image-cloud"
 import { byRadius } from "@cloudinary/url-gen/actions/roundCorners"
+import { solid } from "@cloudinary/url-gen/actions/border";
+
 
 
 function AboutMePage() {
@@ -53,7 +55,7 @@ function AboutMePage() {
           </h1>
           
           <div className="flex justify-center">
-            <img src="/Joy Kwok Resume.jpg" className="border-2"/>
+            <AdvancedImage cldImg={ cld.image('Joy_Kwok_Resume').border(solid(2, "black")) } />
           </div>
 
         </div>
