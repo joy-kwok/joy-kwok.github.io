@@ -21,7 +21,7 @@ function ReelPage() {
           {/* <video width="1120" height="960" controls autoPlay src="projects/Final Animation.mp4">
           Your browser does not support the video tag.
           </video> */}
-          <AdvancedVideo cldVid={cld.video("2026_Demo_Reel")} 
+          <AdvancedVideo cldVid={cld.video("Joy_Kwok_Demo_Reel")} 
             controls={true} autoPlay={true} playsInline={true} 
             className="
                 md:h-160
